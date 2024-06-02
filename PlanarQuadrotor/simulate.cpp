@@ -2,8 +2,13 @@
  * SDL window creation adapted from https://github.com/isJuhn/DoublePendulum
 */
 #include "simulate.h"
+#include <matplot/matplot.h>
 
-Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
+std::vector<float> x_history;
+std::vector<float> y_history;
+std::vector<float> theta_history;
+
+Eigen::MatrixXf LQR(PlanarQuadrotor& quadrotor, float dt) {
     /* Calculate LQR gain matrix */
     Eigen::MatrixXf Eye = Eigen::MatrixXf::Identity(6, 6);
     Eigen::MatrixXf A = Eigen::MatrixXf::Zero(6, 6);
@@ -22,13 +27,25 @@ Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
     std::tie(A, B) = quadrotor.Linearize();
     A_discrete = Eye + dt * A;
     B_discrete = dt * B;
-    
+
     return LQR(A_discrete, B_discrete, Q, R);
 }
 
-void control(PlanarQuadrotor &quadrotor, const Eigen::MatrixXf &K) {
+void plotTrajectory() {
+    matplot::title("Quadrocopter Trajectory");
+    matplot::plot(x_history, y_history)->color({ 1.0f, 0.08f, 0.58f });
+    matplot::show();
+}
+
+void control(PlanarQuadrotor& quadrotor, const Eigen::MatrixXf& K) {
     Eigen::Vector2f input = quadrotor.GravityCompInput();
     quadrotor.SetInput(input - K * quadrotor.GetControlState());
+}
+
+Eigen::Vector2f transformCoordinates(int x, int y, int screen_width, int screen_height) {
+    float quad_x = static_cast<float>(x) / screen_width * 2.0f - 1.0f;
+    float quad_y = 1.0f - static_cast<float>(y) / screen_height * 2.0f;
+    return Eigen::Vector2f(quad_x * (1280 / 2), quad_y * (720 / 2));
 }
 
 int main(int argc, char* args[])
@@ -37,6 +54,8 @@ int main(int argc, char* args[])
     std::shared_ptr<SDL_Renderer> gRenderer = nullptr;
     const int SCREEN_WIDTH = 1280;
     const int SCREEN_HEIGHT = 720;
+
+
 
     /**
      * TODO: Extend simulation
@@ -86,15 +105,31 @@ int main(int argc, char* args[])
                 {
                     quit = true;
                 }
-                else if (e.type == SDL_MOUSEMOTION)
+                else if (e.type == SDL_MOUSEBUTTONDOWN)
                 {
-                    SDL_GetMouseState(&x, &y);
-                    std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
+                    if (e.button.button == SDL_BUTTON_LEFT) {
+                        SDL_GetMouseState(&x, &y);
+                        std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
+                        float quad_x = (static_cast<float>(x) - SCREEN_WIDTH / 2) / 128.0f;
+                        float quad_y = (SCREEN_HEIGHT / 2 - static_cast<float>(y)) / 128.0f;
+                        goal_state << quad_x, quad_y, 0, 0, 0, 0;
+                        quadrotor.SetGoal(goal_state);
+                    }
                 }
-                
+                else if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_p)
+                {
+                    // Plot trajectory
+                    plotTrajectory();
+                }
             }
 
-            SDL_Delay((int) dt * 1000);
+            // Update quadrotor state
+            quadrotor.Update(dt);
+            x_history.push_back(quadrotor.GetState()[0]);
+            y_history.push_back(quadrotor.GetState()[1]);
+            theta_history.push_back(quadrotor.GetState()[2]);
+
+            SDL_Delay((int)dt * 1000);
 
             SDL_SetRenderDrawColor(gRenderer.get(), 0xFF, 0xFF, 0xFF, 0xFF);
             SDL_RenderClear(gRenderer.get());

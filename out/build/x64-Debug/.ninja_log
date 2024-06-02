@@ -1,0 +1,603 @@
+# ninja log v5
+46	1513	7390473065502072	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj	69be608f16e1d579
+75	1644	7390473066938237	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj	c3d761e42283723f
+63	1756	7390473067923611	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj	5ac1a6095ff40516
+83	1867	7390473068118773	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj	31912a1474559f1e
+109	2178	7390473072035220	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/backend_registry.cpp.obj	d8c4eb7d85cf9cbb
+55	2921	7390473078702812	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj	79c573c219ca46ae
+2922	3760	7390473084947008	matplotplusplus/source/3rd_party/nodesoup.lib	2db934de9843c50e
+152	5404	7390473104154233	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_registry.cpp.obj	29a32f329aff630a
+1516	5826	7390473106890330	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/line_spec.cpp.obj	b4698e90aac223fc
+2179	6293	7390473112902705	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_cities.cpp.obj	91d54c4c41ac8148
+90	6321	7390473113498017	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/backend_interface.cpp.obj	ddbc423ff81d0014
+126	6416	7390473114128158	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/axes_object.cpp.obj	8b11962e457ca687
+1645	6623	7390473116409634	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/colors.cpp.obj	af4150a7e6d9ce67
+162	6690	7390473117088507	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/legend.cpp.obj	ab6d9a841c47ca4d
+142	7613	7390473126375232	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_type.cpp.obj	b29038bcb8b63282
+135	7797	7390473128185935	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/axis_type.cpp.obj	e6c95de9fc60b608
+5827	8116	7390473130518388	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_map_110m.cpp.obj	3aa91d07ea7cf97f
+99	8683	7390473136670297	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/gnuplot.cpp.obj	6efb0df803a33a11
+5405	10782	7390473158282643	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_map_50m.cpp.obj	eabab31e09d4504e
+1867	12343	7390473168515662	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/contourc.cpp.obj	cd2d23fdde4aaa57
+119	13229	7390473180937203	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/axes_type.cpp.obj	c80ce5d25bbd61bc
+6294	13965	7390473189345393	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/bars.cpp.obj	ff195ac7add2f937
+6690	14278	7390473193136882	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/error_bar.cpp.obj	211fbde9a882f076
+6417	14428	7390473194627547	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/circles.cpp.obj	f38a0a17b3a4a3ea
+6321	14788	7390473197663719	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/box_chart.cpp.obj	2bebf729812d052
+7613	15120	7390473198919198	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/filled_area.cpp.obj	531c1ec4c790236d
+7798	15993	7390473210169708	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/function_line.cpp.obj	f566a6f887e9e26c
+8116	16329	7390473213325922	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/histogram.cpp.obj	51e118f77becfdc3
+8683	17203	7390473222097642	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/labels.cpp.obj	20a42eb53797593
+6624	17308	7390473223493142	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/contours.cpp.obj	747dc3004076b52b
+17203	17908	7390473227979876	SDL/include/SDL.h	1f2fe6ef1912a4d4
+17203	17908	7390473227979876	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL.h	1f2fe6ef1912a4d4
+17308	18251	7390473231446106	SDL/include/SDL_assert.h	ae8d8caa7814db65
+17308	18251	7390473231446106	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_assert.h	ae8d8caa7814db65
+17908	19404	7390473237715646	SDL/include/SDL_atomic.h	c0cf255446438bb6
+17908	19404	7390473237715646	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_atomic.h	c0cf255446438bb6
+18251	19896	7390473247251784	SDL/include/SDL_audio.h	6c8f21152908a75b
+18251	19896	7390473247251784	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_audio.h	6c8f21152908a75b
+12343	20146	7390473250923277	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/matrix.cpp.obj	f55c951fcd83cd1d
+10783	20308	7390473252551258	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/line.cpp.obj	3600f62a23b75436
+19405	20359	7390473252766482	SDL/include/SDL_bits.h	9832d718074eee8e
+19405	20359	7390473252766482	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_bits.h	9832d718074eee8e
+19896	20533	7390473253951919	SDL/include/SDL_blendmode.h	6be13e7f081147b6
+19896	20533	7390473253951919	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_blendmode.h	6be13e7f081147b6
+20146	20853	7390473257498205	SDL/include/SDL_clipboard.h	2a21c73f421b0771
+20146	20853	7390473257498205	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_clipboard.h	2a21c73f421b0771
+20308	21339	7390473262269723	SDL/include/SDL_copying.h	34aef3843ced814d
+20308	21339	7390473262269723	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_copying.h	34aef3843ced814d
+20359	21351	7390473260679099	SDL/include/SDL_cpuinfo.h	5872d8bb4b2657b0
+20359	21351	7390473260679099	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_cpuinfo.h	5872d8bb4b2657b0
+14279	21415	7390473264000432	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/stair.cpp.obj	58f9626823c8e20d
+20853	21629	7390473264825787	SDL/include/SDL_endian.h	2ca8f056f847c0e9
+20853	21629	7390473264825787	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_endian.h	2ca8f056f847c0e9
+20534	21640	7390473264905810	SDL/include/SDL_egl.h	73fd0b147eea1c23
+20534	21640	7390473264905810	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_egl.h	73fd0b147eea1c23
+21339	21768	7390473267016589	SDL/include/SDL_error.h	ab3012c1f78f789
+21339	21768	7390473267016589	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_error.h	ab3012c1f78f789
+21416	21782	7390473267076599	SDL/include/SDL_filesystem.h	a52d8e0baf5c5e29
+21416	21782	7390473267076599	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_filesystem.h	a52d8e0baf5c5e29
+21351	21837	7390473267415634	SDL/include/SDL_events.h	fb0664c7feeb789
+21351	21837	7390473267415634	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_events.h	fb0664c7feeb789
+14429	22016	7390473270501814	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/string_function.cpp.obj	a05e846e11e79029
+21630	22062	7390473269736554	SDL/include/SDL_gamecontroller.h	1ec07fc227707688
+21630	22062	7390473269736554	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_gamecontroller.h	1ec07fc227707688
+21641	22072	7390473270857068	SDL/include/SDL_gesture.h	135a1f3d212dd0ff
+21641	22072	7390473270857068	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_gesture.h	135a1f3d212dd0ff
+21768	22102	7390473270997102	SDL/include/SDL_guid.h	79638713d87f5544
+21768	22102	7390473270997102	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_guid.h	79638713d87f5544
+3761	22277	7390473273097841	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_map_10m.cpp.obj	6d3b504c1fa0d687
+13966	22290	7390473272757765	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/parallel_lines.cpp.obj	37ce382ca45f52bd
+21838	22391	7390473272967812	SDL/include/SDL_hidapi.h	c51ddc51b2eb0d45
+21838	22391	7390473272967812	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_hidapi.h	c51ddc51b2eb0d45
+21782	22486	7390473273047835	SDL/include/SDL_haptic.h	451d1e8c8046079c
+21782	22486	7390473273047835	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_haptic.h	451d1e8c8046079c
+22102	22518	7390473273267882	SDL/include/SDL_keycode.h	8bf2733c14af1587
+22102	22518	7390473273267882	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_keycode.h	8bf2733c14af1587
+22062	22529	7390473273267882	SDL/include/SDL_joystick.h	6f269a25be3f7499
+22062	22529	7390473273267882	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_joystick.h	6f269a25be3f7499
+22017	22538	7390473273277889	SDL/include/SDL_hints.h	339f369b00ac9961
+22017	22538	7390473273277889	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_hints.h	339f369b00ac9961
+13230	22691	7390473276955782	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/network.cpp.obj	8e9335ebdcb07d12
+22072	22717	7390473275478716	SDL/include/SDL_keyboard.h	73b1bb337fd25de
+22072	22717	7390473275478716	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_keyboard.h	73b1bb337fd25de
+22277	22754	7390473277335882	SDL/include/SDL_loadso.h	63cf44dd69b75942
+22277	22754	7390473277335882	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_loadso.h	63cf44dd69b75942
+22291	22802	7390473277941156	SDL/include/SDL_locale.h	8d96a6142ac6066c
+22291	22802	7390473277941156	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_locale.h	8d96a6142ac6066c
+22487	22817	7390473277771114	SDL/include/SDL_main.h	bf1ad079864157f0
+22487	22817	7390473277771114	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_main.h	bf1ad079864157f0
+22391	22828	7390473278141196	SDL/include/SDL_log.h	135ec4afe62bfc4a
+22391	22828	7390473278141196	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_log.h	135ec4afe62bfc4a
+22538	22918	7390473278681373	SDL/include/SDL_misc.h	994fd5db4efd86da
+22538	22918	7390473278681373	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_misc.h	994fd5db4efd86da
+22691	23043	7390473279136599	SDL/include/SDL_mouse.h	cf77b9d4e6f612d9
+22691	23043	7390473279136599	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_mouse.h	cf77b9d4e6f612d9
+22529	23054	7390473279106594	SDL/include/SDL_metal.h	10bc34073b30070f
+22529	23054	7390473279106594	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_metal.h	10bc34073b30070f
+22717	23113	7390473279586702	SDL/include/SDL_mutex.h	c3300c974c380668
+22717	23113	7390473279586702	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_mutex.h	c3300c974c380668
+22519	23164	7390473280001977	SDL/include/SDL_messagebox.h	28b5833ae5178978
+22519	23164	7390473280001977	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_messagebox.h	28b5833ae5178978
+22828	23225	7390473281507476	SDL/include/SDL_opengles.h	dbcc0048ce42f00a
+22828	23225	7390473281507476	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_opengles.h	dbcc0048ce42f00a
+22754	23235	7390473280472077	SDL/include/SDL_name.h	241a2e1d0c327547
+22754	23235	7390473280472077	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_name.h	241a2e1d0c327547
+22817	23245	7390473281487469	SDL/include/SDL_opengl_glext.h	7cec2de3797aaccf
+22817	23245	7390473281487469	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_opengl_glext.h	7cec2de3797aaccf
+22802	23263	7390473281577494	SDL/include/SDL_opengl.h	8276615e1106b825
+22802	23263	7390473281577494	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_opengl.h	8276615e1106b825
+23044	23403	7390473282422835	SDL/include/SDL_opengles2_gl2.h	35ab570f79f1057b
+23044	23403	7390473282422835	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_opengles2_gl2.h	35ab570f79f1057b
+16329	23594	7390473286017141	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/histcounts.cpp.obj	58b3b6b0258e8317
+15120	23608	7390473285689160	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/vectors.cpp.obj	38c22adc018dcd7b
+23055	23620	7390473284848911	SDL/include/SDL_opengles2_gl2ext.h	f651091f7d25b37a
+23055	23620	7390473284848911	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_opengles2_gl2ext.h	f651091f7d25b37a
+23225	23630	7390473285028959	SDL/include/SDL_pixels.h	2f471fac65ad84b0
+23225	23630	7390473285028959	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_pixels.h	2f471fac65ad84b0
+23264	23645	7390473285699165	SDL/include/SDL_quit.h	bfa56f0e4347edde
+23264	23645	7390473285699165	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_quit.h	bfa56f0e4347edde
+22918	23656	7390473285168988	SDL/include/SDL_opengles2.h	d1bb43c7fc1a3d0b
+22918	23656	7390473285168988	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_opengles2.h	d1bb43c7fc1a3d0b
+23113	23666	7390473284593697	SDL/include/SDL_opengles2_gl2platform.h	6465510320bd628c
+23113	23666	7390473284593697	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_opengles2_gl2platform.h	6465510320bd628c
+23164	23675	7390473285509061	SDL/include/SDL_opengles2_khrplatform.h	5ab2aeb953eac5ff
+23164	23675	7390473285509061	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_opengles2_khrplatform.h	5ab2aeb953eac5ff
+23235	23733	7390473286811208	SDL/include/SDL_platform.h	793558212186fc26
+23235	23733	7390473286811208	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_platform.h	793558212186fc26
+14788	23766	7390473287381332	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/surface.cpp.obj	620ca67642c9c43a
+23245	23784	7390473286871217	SDL/include/SDL_power.h	cd489ed20dbd66bc
+23245	23784	7390473286871217	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_power.h	cd489ed20dbd66bc
+15993	23824	7390473288132147	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/axes_functions.cpp.obj	7e13bcb7c0f5799f
+23403	23885	7390473288534544	SDL/include/SDL_rect.h	8e3f3ca012c9f8d8
+23403	23885	7390473288534544	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_rect.h	8e3f3ca012c9f8d8
+23594	23899	7390473288789731	SDL/include/SDL_render.h	228829e87d269e6c
+23594	23899	7390473288789731	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_render.h	228829e87d269e6c
+23646	23913	7390473288819746	SDL/include/SDL_shape.h	e83a57a99c82151e
+23646	23913	7390473288819746	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_shape.h	e83a57a99c82151e
+23620	23956	7390473289169816	SDL/include/SDL_scancode.h	7de4bd54f4b87c3a
+23620	23956	7390473289169816	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_scancode.h	7de4bd54f4b87c3a
+23609	23971	7390473289399863	SDL/include/SDL_rwops.h	73549a3b937365fe
+23609	23971	7390473289399863	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_rwops.h	73549a3b937365fe
+23630	23989	7390473289531519	SDL/include/SDL_sensor.h	1373d667e8d43ca4
+23630	23989	7390473289531519	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_sensor.h	1373d667e8d43ca4
+23733	23999	7390473289571523	SDL/include/SDL_syswm.h	58a137a6e6fbdf81
+23733	23999	7390473289571523	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_syswm.h	58a137a6e6fbdf81
+23656	24009	7390473289691590	SDL/include/SDL_stdinc.h	3a93dcf690619e62
+23656	24009	7390473289691590	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_stdinc.h	3a93dcf690619e62
+23675	24045	7390473290449953	SDL/include/SDL_system.h	79adf3b4a1180a0d
+23675	24045	7390473290449953	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_system.h	79adf3b4a1180a0d
+23666	24087	7390473290449953	SDL/include/SDL_surface.h	f190bde19a7e713b
+23666	24087	7390473290449953	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_surface.h	f190bde19a7e713b
+23824	24139	7390473290958161	SDL/include/SDL_test_common.h	7b58f8f92410679
+23824	24139	7390473290958161	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_common.h	7b58f8f92410679
+23766	24184	7390473290888150	SDL/include/SDL_test.h	495f75c55230e35a
+23766	24184	7390473290888150	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test.h	495f75c55230e35a
+23899	24194	7390473291619463	SDL/include/SDL_test_crc32.h	b5e30da73ed0e01d
+23899	24194	7390473291619463	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_crc32.h	b5e30da73ed0e01d
+23784	24204	7390473291599415	SDL/include/SDL_test_assert.h	6eb40a6731d06d4a
+23784	24204	7390473291599415	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_assert.h	6eb40a6731d06d4a
+23914	24223	7390473291884640	SDL/include/SDL_test_font.h	bd360c422c560ca4
+23914	24223	7390473291884640	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_font.h	bd360c422c560ca4
+23885	24235	7390473291784620	SDL/include/SDL_test_compare.h	9d9a81e85da93db7
+23885	24235	7390473291784620	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_compare.h	9d9a81e85da93db7
+23989	24245	7390473292245169	SDL/include/SDL_test_images.h	96f35d6d9ee928c8
+23989	24245	7390473292245169	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_images.h	96f35d6d9ee928c8
+23999	24260	7390473292185147	SDL/include/SDL_test_log.h	e862364ffa908ec2
+23999	24260	7390473292185147	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_log.h	e862364ffa908ec2
+23971	24272	7390473292358926	SDL/include/SDL_test_harness.h	fb3e7a36e795a340
+23971	24272	7390473292358926	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_harness.h	fb3e7a36e795a340
+23956	24287	7390473292348883	SDL/include/SDL_test_fuzzer.h	738d4f2c0b45b16e
+23956	24287	7390473292348883	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_fuzzer.h	738d4f2c0b45b16e
+24009	24296	7390473292438953	SDL/include/SDL_test_md5.h	c7dda60db43ca746
+24009	24296	7390473292438953	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_md5.h	c7dda60db43ca746
+24087	24305	7390473292934211	SDL/include/SDL_test_random.h	be184fd453f68533
+24087	24305	7390473292934211	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_random.h	be184fd453f68533
+24045	24322	7390473292924211	SDL/include/SDL_test_memory.h	f4e7df4561b9db6e
+24045	24322	7390473292924211	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_test_memory.h	f4e7df4561b9db6e
+24139	24362	7390473293687469	SDL/include/SDL_thread.h	23df33cfe39d8ac4
+24139	24362	7390473293687469	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_thread.h	23df33cfe39d8ac4
+24195	24423	7390473294446067	SDL/include/SDL_touch.h	a312f1de9d197e4d
+24195	24423	7390473294446067	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_touch.h	a312f1de9d197e4d
+24184	24427	7390473293948903	SDL/include/SDL_timer.h	94efc275d8f324af
+24184	24427	7390473293948903	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_timer.h	94efc275d8f324af
+24204	24428	7390473294576088	SDL/include/SDL_types.h	87c0a80103065703
+24204	24428	7390473294576088	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_types.h	87c0a80103065703
+24272	24430	7390473294613008	SDL/include/close_code.h	8dd85de4f7db5d80
+24272	24430	7390473294613008	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/close_code.h	8dd85de4f7db5d80
+24235	24439	7390473294623058	SDL/include/SDL_video.h	14faba1babb008de
+24235	24439	7390473294623058	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_video.h	14faba1babb008de
+24224	24439	7390473294788212	SDL/include/SDL_version.h	ba8c4a71c3c12229
+24224	24439	7390473294788212	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_version.h	ba8c4a71c3c12229
+24260	24457	7390473295050909	SDL/include/begin_code.h	f0c244f0f5c26308
+24260	24457	7390473295050909	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/begin_code.h	f0c244f0f5c26308
+24245	24458	7390473295026025	SDL/include/SDL_vulkan.h	b422b497251e9ac5
+24245	24458	7390473295026025	C:/Users/natal/OneDrive/Pulpit/Nowy folder/tp_projekt_4/out/build/x64-Debug/SDL/include/SDL_vulkan.h	b422b497251e9ac5
+24287	25066	7390473300806444	SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_framerate.c.obj	4862777a49f4d6c5
+24528	25086	7390473300836460	SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.obj	e1b4a662f337e0cc
+24305	25107	7390473301505313	SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_imageFilter.c.obj	64e1e8787c545cf7
+24296	25125	7390473301745828	SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_gfxPrimitives.c.obj	d5ef5155d108dd97
+24518	25385	7390473304341811	SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.obj	fef9022d922c9f3d
+25067	25602	7390473306452570	SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.obj	f5b88da35c12748e
+25087	25615	7390473306512583	SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.obj	7b03af8c166391a2
+24504	25705	7390473307530528	SDL/CMakeFiles/SDL2.dir/src/SDL.c.obj	d7503d83da807e32
+24497	25792	7390473308417543	SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj	29b12e26b04eab5a
+25386	25862	7390473308865612	SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.obj	364cc7d72951176b
+25107	25930	7390473309484152	SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.obj	7b619c9160595a6
+24322	26011	7390473310248503	SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_rotozoom.c.obj	777fa0f75d416626
+24511	26092	7390473311273897	SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.obj	889c789866306195
+25602	26100	7390473311493942	SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.obj	bd2dc8c51ee8b9d9
+25792	26215	7390473311123862	SDL/SDL2maind.lib	89090fc33ed21fae
+25125	26225	7390473312743125	SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.obj	31706cf322dd40ab
+25931	26340	7390473313628452	SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.obj	511d535cf38aa04
+26012	26631	7390473316774597	SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.obj	ca0908b402fdc8f8
+26093	26661	7390473317149775	SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.obj	7b6152572e572970
+25616	26798	7390473317865096	SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.obj	dd0c00a5f7f204d1
+26100	26870	7390473318962815	SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.obj	6e5840fc88518bdc
+25863	26879	7390473318677629	SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.obj	223e8d0c9f74349f
+1757	27056	7390473320314509	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/common.cpp.obj	fb99103072f5fc48
+25706	27068	7390473321174686	SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.obj	926f084d11b28dfa
+26340	27442	7390473324649511	SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.obj	72f2c2aedb097e3a
+26215	27463	7390473325164727	SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.obj	84073e83e549720c
+26226	27740	7390473327767372	SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.obj	1bed231ccf8b323d
+26631	27891	7390473329227940	SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.obj	760bfc0c42a93a42
+26662	27906	7390473329397967	SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.obj	e7cf82952126c25f
+26879	28273	7390473332833966	SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.obj	662359183099cb1e
+26870	28310	7390473333444104	SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.obj	f3a26a4234cab2f6
+26799	28562	7390473334169421	SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.obj	9aece85f2f245784
+27891	28591	7390473336282750	SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.obj	b9a2929a0672beea
+27069	28660	7390473336532808	SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.obj	c36a2ee7c578a214
+27443	28936	7390473339815932	SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.obj	4becf40e2b142d60
+27740	28950	7390473339600713	SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.obj	934280b01d6d7a6f
+27907	29076	7390473341136859	SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.obj	b2e4b4708f81910c
+27056	29097	7390473340061439	matplotplusplus/source/matplot/matplot.lib	ca0cfa02e228adcf
+28274	29106	7390473341306883	SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.obj	c50a261fb6bdc341
+27463	29175	7390473341667022	SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.obj	71657c77b053925a
+24476	29205	7390473342525103	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj	1524c8def7d3a066
+28661	29306	7390473343220401	SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.obj	f62d88a9b83aaec7
+28311	29442	7390473344565873	SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.obj	5af2715cef842504
+28951	29458	7390473345051126	SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.obj	8979036ffba16beb
+28937	29468	7390473344841079	SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.obj	b1e7fdb505b6e83d
+29076	29478	7390473345141149	SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.obj	55efb0a1d258fd33
+28563	29615	7390473346512869	SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.obj	9d6bb56e9921c57f
+29107	29629	7390473346752974	SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.obj	b318501513a31f4a
+29209	29709	7390473347588279	SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.obj	bfb898ce3872d850
+29098	29741	7390473347278213	SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.obj	5498a206a21728d8
+29306	29794	7390473348429917	SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.obj	84cb9c6f76a3b1d7
+28591	29803	7390473348449919	SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.obj	bd8c41756756fec3
+29175	29869	7390473349125251	SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.obj	74a0af8faa4ed17b
+29458	29916	7390473349715417	SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.obj	3779c22bb063e5bc
+29442	29939	7390473349830553	SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.obj	8bfd12c2d4abeaba
+29478	30039	7390473350825933	SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.obj	408390149c0186c1
+29468	30047	7390473350825933	SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.obj	52f2097018f2a3ea
+29629	30086	7390473351226023	SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.obj	6218bfc6431dbdcb
+29616	30095	7390473351266031	SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.obj	7c3e8ee5ce48ffc1
+29709	30171	7390473351801217	SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.obj	75ff3c4d6b4d28
+29794	30232	7390473352821711	SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.obj	7e5b04a4ad0f1da5
+29741	30244	7390473352831716	SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.obj	d797273ab1cf7b33
+29939	30317	7390473353701930	SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.obj	e041b8d429861cf6
+29869	30326	7390473353781954	SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.obj	78f97227a0e6c52d
+29803	30334	7390473353781954	SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.obj	26e4b5b3a4feb5a5
+30047	30341	7390473353857087	SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.obj	62887f29f0adaba1
+30086	30445	7390473354767328	SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.obj	cad9b0f31cf6ba9f
+30039	30485	7390473355042502	SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.obj	a7990584d230e504
+29916	30504	7390473355122520	SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.obj	2021a1dadf4708c3
+30171	30539	7390473355847846	SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.obj	7848c41254a4e0b6
+24467	30635	7390473356307938	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj	a250f3313923349f
+30095	30761	7390473358102290	SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.obj	5a0b33a64d51f4fa
+30504	30934	7390473359241988	SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.obj	96cfff4306200b2d
+30636	31120	7390473361682924	SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.obj	f64243cd43d8810f
+30539	31161	7390473362035425	SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.obj	ecafc287c0fd0c4e
+30761	31179	7390473362365499	SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.obj	80592da731535d69
+30934	31322	7390473363741001	SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.obj	232c967e90ea3671
+24458	31334	7390473363710998	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj	7cba065dc0830881
+30485	31455	7390473365071483	SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.obj	58ef0a4dd447a859
+30244	31489	7390473365231518	SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.obj	1253390d249a2161
+30446	31642	7390473366525673	SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.obj	145997b9ab43a8dc
+30326	31658	7390473367100959	SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj	1d523bd2af50f66b
+30233	31713	7390473367260992	SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.obj	5c339ecbbf57b059
+30341	31758	7390473368106354	SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj	9d8110ccb6544c4d
+31121	31771	7390473368026337	SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.obj	b4d79693a5f9bfe2
+31179	31798	7390473368096350	SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.obj	452a0578646a7dc4
+31161	31856	7390473369081729	SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.obj	6229d3040181821f
+31322	31865	7390473368931706	SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.obj	335b76f13b242632
+30334	31928	7390473369731922	SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.obj	3aae9677369d8bff
+30318	31955	7390473369827062	SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.obj	9d9bae6a2fe7ba2b
+31659	31963	7390473370027104	SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj	69c86d9934401e3e
+31335	31972	7390473369837066	SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.obj	48fd1a4835c2a521
+31713	32046	7390473370942474	SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj	bb45c45f4faa996
+31759	32076	7390473371282548	SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj	6b2facb709c01cf1
+31798	32085	7390473371352568	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.obj	e673495de1398186
+31456	32094	7390473371392572	SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.obj	e844472f353079a9
+31856	32185	7390473372367949	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.obj	b6022a8f124a5ee6
+31643	32222	7390473372708059	SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.obj	34f9ce6e50537e72
+31972	32313	7390473373673447	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.obj	1669cee6bad5f249
+31963	32321	7390473373523342	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.obj	3287fb216aa4bc30
+31928	32346	7390473373998634	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.obj	b901bd2a4731b0cd
+32046	32367	7390473374008636	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.obj	1b91235699bc2e0f
+32077	32380	7390473374328709	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.obj	4c563c5f9e71171a
+32085	32504	7390473375297219	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.obj	6b70dbbda4e2b8e9
+31489	32688	7390473377203388	SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.obj	eed0cc0464599a41
+31955	32697	7390473377373431	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.obj	2900e9af63504cbc
+32321	32705	7390473377558206	SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.obj	ea65198c85f6dcfc
+31865	32714	7390473377690883	SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.obj	d58a4e4fa9de6334
+31772	32929	7390473379181747	SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.obj	afcb208b4e02458
+32380	32962	7390473379975745	SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.obj	bd11f6db13d0b7e7
+32094	32991	7390473380275812	SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.obj	a87ef7b185ff57b6
+32186	33009	7390473380505873	SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.obj	afc2eebbdba54f06
+32368	33017	7390473380615897	SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.obj	5e7b5a4c971e5e15
+32504	33024	7390473380685958	SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.obj	2275905f858a1cc
+32222	33208	7390473382516633	SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.obj	652dc172a2be9aae
+32697	33219	7390473382726728	SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.obj	b99866cf83d88bd6
+32688	33230	7390473382767838	SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.obj	37c0e8501cdf0610
+32705	33242	7390473382576642	SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.obj	c9c713092da94519
+32314	33251	7390473382936328	SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.obj	22c44ac46719814e
+32346	33323	7390473383676547	SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.obj	18df660aae96b68c
+32962	33532	7390473385628392	SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.obj	985fc21924c20cb9
+33010	33542	7390473385883637	SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.obj	ca647c09f53a3225
+33025	33552	7390473386033658	SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.obj	bf63c0131e757e35
+33242	33722	7390473387349075	SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.obj	324ed76ca08e23e
+32715	33731	7390473387739208	SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.obj	a28e8a3f535a5588
+32930	33825	7390473388777628	SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.obj	10a16b092016fa81
+33251	33895	7390473389435723	SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.obj	82c369468dc5458c
+33323	33911	7390473389605766	SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.obj	95a6dd4814d0c9cd
+32991	33929	7390473389795853	SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.obj	13043090bb3221df
+33543	33945	7390473389805858	SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj	73cee54867a3bab9
+33533	33985	7390473390211051	SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.obj	dd5aeb640b95a6d4
+33017	34128	7390473391656506	SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.obj	3735caf0cca1676f
+33208	34218	7390473392393210	SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.obj	77f86c7e901750e4
+33230	34228	7390473392828411	SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.obj	eb87a3f28d851eb7
+33219	34463	7390473394367439	SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.obj	eaf83035bdf0f547
+33552	34552	7390473395945319	SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.obj	837567c40ecdfee3
+33722	34569	7390473396235374	SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.obj	bdb26a704ac025fb
+33930	34702	7390473397210729	SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.obj	453539aef669986f
+33825	34713	7390473397680893	SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.obj	4d53f69d13b896ca
+33731	34722	7390473397710897	SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.obj	944892d7675729a8
+33945	34919	7390473399641601	SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.obj	61d4afbda09df210
+33911	34929	7390473399641601	SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.obj	d64e4416da42f63c
+33985	34937	7390473399621609	SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.obj	6e8805749fa9cb50
+33896	34946	7390473399741665	SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.obj	56fba6363b196ede
+34229	35311	7390473403647868	SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.obj	33ff5094053a3ad9
+34129	35321	7390473403637861	SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.obj	6fd4459b30f9c570
+34218	35330	7390473403810715	SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.obj	817d58788a6b2c42
+34464	35723	7390473407719959	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.obj	551d1aca8c1c5807
+34570	35733	7390473407609894	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.obj	6f8f6c7671408c7c
+34713	35818	7390473408631717	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.obj	63fbf7b61460de2a
+34553	35984	7390473409779025	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.obj	1255aae1561f739c
+34722	36070	7390473410971317	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.obj	b75c647d4ee10940
+34702	36080	7390473411301388	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.obj	842cf35d596d5e34
+35723	36089	7390473411411416	SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.obj	ed03d2e08f7ad907
+34937	36146	7390473411521438	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.obj	ec917b0ed4d62c0b
+34947	36158	7390473412096717	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.obj	1330afa802be1b55
+34919	36195	7390473412256757	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.obj	3240ddf2d43e7ef7
+34929	36415	7390473414182379	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.obj	d448f6eebb8d6fd3
+35322	36523	7390473415598692	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.obj	1c8c232da9b7cb03
+35733	36534	7390473415843833	SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.obj	5ddb18d2b6a634b
+35819	36563	7390473416053920	SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.obj	527d88cbbc81682f
+35330	36630	7390473416634047	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.obj	316c1b75df6f18ce
+35312	36688	7390473417009282	SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.obj	ad6050998e80af9
+35985	36850	7390473418960038	SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.obj	58584d0791bf539
+36070	36860	7390473419080067	SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.obj	b31fe8c62593439
+36534	36868	7390473419202656	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj	802c3309dadd9481
+36147	36997	7390473420408581	SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.obj	f4cafe602e92f61d
+36159	37005	7390473420488599	SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.obj	7ea2b48a1517e84f
+36080	37013	7390473420608625	SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.obj	df559f880c0b5959
+36563	37139	7390473421684004	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj	86edf4a12d3f8457
+36630	37148	7390473421929216	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj	aec81c0b534662b8
+36089	37258	7390473423024609	SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.obj	24755b903107a187
+36415	37267	7390473422984600	SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.obj	8c281f738f40f1ef
+36688	37287	7390473423334688	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj	81b9eae129a0efa3
+36868	37321	7390473423554736	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj	8e701bcd9647575e
+36524	37332	7390473423604752	SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.obj	daf6e59b9d0312e7
+36851	37403	7390473424450065	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj	8e15d4a5986c3ab8
+36997	37478	7390473424969642	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj	dbc28b7ac24a4db8
+37006	37487	7390473425399734	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj	58e7629bfa643770
+37148	37668	7390473427124206	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj	ac1977ee668f6e4b
+36196	37678	7390473427254249	SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj	160ae4dc91f9f32e
+37013	37693	7390473427344265	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj	81054e80701a22c7
+37139	37716	7390473427489236	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj	e3b0bd3891be93a2
+36860	37728	7390473427735911	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj	3cccaf490f52d5ef
+37258	37992	7390473430440424	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj	e54658989d781446
+37267	38187	7390473431992287	SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj	163a9e7287fb6aad
+38187	38599	7390473436307423	SDL/CMakeFiles/SDL2-static.dir/src/SDL_error.c.obj	52625ac4f6111173
+37693	38615	7390473435977338	SDL/CMakeFiles/SDL2.dir/src/main/windows/version.rc.res	77bc9ac1dc54672c
+37287	38628	7390473436677503	SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.obj	4ee64e705ba7df9
+37479	38777	7390473437858490	SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.obj	10a9e000c3f7be7d
+37488	38861	7390473438838809	SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.obj	313bd7a9a8003bee
+37404	38873	7390473438883936	SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.obj	ee80c1005faa5431
+37668	39025	7390473440269388	SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.obj	e3bf14bcd00218c5
+38615	39067	7390473440954707	SDL/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.obj	81526d357a00a11c
+37993	39079	7390473440924700	SDL/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.obj	6215630e931dcddd
+38599	39086	7390473441084737	SDL/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.obj	225a0fe200c21a4
+37717	39161	7390473441574840	SDL/CMakeFiles/SDL2-static.dir/src/SDL.c.obj	9435ed32e2f168a5
+37679	39177	7390473442150105	SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.obj	87226578c021b463
+38861	39429	7390473444060852	SDL/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.obj	9a717f313b14ad90
+37728	39475	7390473444801061	SDL/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.obj	b74e084bed5f44ec
+38874	39483	7390473444630966	SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.obj	efd49a7c919cd610
+38629	39633	7390473445346303	SDL/CMakeFiles/SDL2-static.dir/src/SDL_list.c.obj	370d4da103abf5fe
+39087	39671	7390473447026972	SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.obj	88cf7974bf3d4596
+39079	39809	7390473448162386	SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.obj	b88602c37877ce38
+38777	39896	7390473449077721	SDL/CMakeFiles/SDL2-static.dir/src/SDL_log.c.obj	9caf4c090ec8f450
+39161	39904	7390473449077721	SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.obj	3d785a131058d730
+39178	39914	7390473449147743	SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.obj	aaa0e87d0edda6e8
+39025	40036	7390473449883027	SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.obj	9416c651932ebc18
+39430	40156	7390473452053785	SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.obj	4a4a2053f511d70b
+39067	40234	7390473452593909	SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.obj	7172f27b37a740c8
+39475	40456	7390473454959828	SDL/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.obj	4dfc7154ba5ace09
+39633	40710	7390473457630732	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.obj	f05e81c6849b6c4e
+39671	40720	7390473457650731	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.obj	2636304f968a16a6
+37321	40751	7390473457865876	SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj	47ffd5a04a9902a
+37332	40883	7390473459072296	SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj	f8131b282050d27d
+39809	40992	7390473459532408	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.obj	389f380a6dc70426
+39484	41109	7390473460617809	SDL/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.obj	ecb64c9f8409b0ae
+40751	41143	7390473461918403	SDL/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.obj	ddf412e6f547f0b7
+40710	41174	7390473461543158	SDL/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.obj	99f1e3905c0a4768
+39914	41183	7390473462208456	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.obj	a88902ae39317ad8
+40036	41284	7390473463083827	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.obj	569ae1bf438c9fc1
+40235	41293	7390473463113840	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.obj	88cefcee15828102
+39905	41306	7390473463593946	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.obj	895f7002ea3ffc9
+40156	41355	7390473463583942	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.obj	9ffa48edf8fa70a
+39896	41380	7390473463879146	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.obj	49d908d04f76385d
+41174	41554	7390473465939906	SDL/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.obj	f327f8cf09f87f52
+40720	41568	7390473465929896	SDL/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.obj	88ce7bce91591f53
+40456	41622	7390473466389995	SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.obj	12434834ed6fb290
+41184	41630	7390473466810130	SDL/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.obj	95bb7ec4b6fea432
+41294	41723	7390473467765513	SDL/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.obj	2f18097a1332eec2
+41284	41777	7390473468170694	SDL/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.obj	7797934d41bdb228
+41355	41795	7390473468450769	SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.obj	655c9fb6ee4e9f08
+41306	41803	7390473468480774	SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.obj	c2ec5fe338f3850c
+41380	41891	7390473469366110	SDL/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.obj	d99e40c51687688e
+41630	42076	7390473471309109	SDL/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.obj	712da0922a0e4af
+41622	42108	7390473471449145	SDL/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.obj	637c0c48bcee59cb
+41568	42118	7390473471459141	SDL/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.obj	5a5d6e2d386a3295
+24487	42142	7390473471349117	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj	da93b60ca5046132
+41555	42150	7390473471733334	SDL/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.obj	35ea74b6a8581b5a
+41777	42160	7390473471948477	SDL/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.obj	b098931b9b19fbbb
+41723	42223	7390473472628632	SDL/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.obj	77d78983c4cfc859
+40992	42305	7390473473543973	SDL/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.obj	bd20fa270ae468ea
+41795	42325	7390473473774080	SDL/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.obj	6b9776c842c0bcb9
+41891	42359	7390473473899216	SDL/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.obj	9223075f89b04a27
+41803	42405	7390473474279302	SDL/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.obj	cb14ad7b11152315
+41143	42486	7390473475274660	SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.obj	cd99682ff4a2cbf7
+42160	42495	7390473475424689	SDL/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.obj	7c95414af111c879
+41109	42503	7390473475434695	SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.obj	ee8e5c69a13f0471
+42076	42511	7390473475494706	SDL/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.obj	aa931a075bdcc3e0
+42108	42518	7390473475534714	SDL/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.obj	bf87c3129169c8a1
+42150	42597	7390473476490079	SDL/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.obj	8b8c878b1a8fdfb
+42223	42605	7390473476470079	SDL/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.obj	db05278a19ab73f1
+42118	42615	7390473476640112	SDL/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.obj	abf283516db696b2
+42143	42623	7390473476650109	SDL/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.obj	3fe49cbc98e78f94
+42305	42698	7390473477545480	SDL/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.obj	b995f6d20dfe4562
+42325	42715	7390473477645503	SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.obj	e6c9ff37f437186d
+42623	42898	7390473479479390	SDL/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.obj	2b0c18670af28255
+42406	42906	7390473479249333	SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.obj	484389869ecc996f
+42360	42914	7390473479579404	SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.obj	6872f866366c9258
+42698	43190	7390473482372595	SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.obj	d1edd32585e89ed6
+42898	43208	7390473482542640	SDL/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.obj	8ba5ae5742cd0955
+42715	43230	7390473482782747	SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.obj	f907e399a512abb2
+42906	43240	7390473482832756	SDL/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.obj	b4fa3a95d6b69ff2
+42616	43572	7390473486046424	SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.obj	8f6ee2951ae0eb78
+42914	43589	7390473486186453	SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.obj	9e314f0d2f96d0ec
+42495	43600	7390473486558120	SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.obj	f0889fbd596b8928
+42511	43713	7390473486698157	SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj	36c68eab7dfeb93
+43240	43833	7390473488877884	SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.obj	7014cc346b19e85e
+42486	43852	7390473488772786	SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.obj	3c704cf07b8e74ac
+43209	43862	7390473488832805	SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.obj	6ab3768a358adb
+43231	43870	7390473488897953	SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.obj	cf3a5f3f35f6d8be
+40883	43891	7390473485811255	SDL/SDL2d.dll	ba613222ca9facec
+40883	43891	7390473485811255	SDL/SDL2d.lib	ba613222ca9facec
+42519	43973	7390473490094870	SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.obj	f7534fd9c000fac
+42504	43983	7390473489943348	SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.obj	bd4636af09c4c7c1
+42597	43992	7390473490254912	SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj	6ce6b3553cd6a44d
+42605	44026	7390473490364929	SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.obj	fbb704e6e6f0e580
+43190	44093	7390473491080245	SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.obj	8091fe2174beffd0
+43713	44116	7390473491580362	SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj	7b8a083a072d32a4
+43833	44183	7390473492295659	SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj	c64a1772863585ac
+43572	44193	7390473492405687	SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.obj	1333aa545638a9
+43870	44218	7390473492495701	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.obj	ba618428f605e47c
+43852	44225	7390473492635729	SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj	fc5adda16bc1d1b6
+43600	44234	7390473492715750	SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.obj	7680d8ab2ad8d2b4
+43892	44246	7390473492775805	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.obj	1a03a06894fe27c4
+44026	44357	7390473494046346	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.obj	f841d72e10cf1f7c
+44116	44488	7390473495195882	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.obj	b244a0d650ca3fc
+44183	44496	7390473495445931	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.obj	650e5d35ef801869
+44093	44509	7390473495365919	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.obj	5566e9bf6d519af0
+43984	44518	7390473495565954	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.obj	4386783605a7ed
+44193	44702	7390473497246632	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.obj	728c0074b8352f72
+43993	44721	7390473497696733	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.obj	ea096e10b0598696
+44357	44809	7390473498603907	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.obj	597b52fba6d45040
+43973	44851	7390473498979153	SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.obj	670da2b0b8a639b1
+43589	44922	7390473499529251	SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.obj	5fe208703852ce0a
+43863	44970	7390473500054508	SDL/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.obj	6a3774c5a0892162
+44218	45118	7390473501680010	SDL/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.obj	92ecfcb4dc4cb0b7
+44226	45128	7390473501730027	SDL/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.obj	40e19a73361f5075
+44509	45144	7390473501630002	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.obj	cfe918984af78c08
+44234	45187	7390473502400938	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.obj	251d8326cbcb6c68
+44518	45196	7390473502440932	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.obj	4f78f1ec103ee636
+44247	45236	7390473502846188	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.obj	3025350eeffcfdbf
+44496	45259	7390473502510948	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.obj	8074a293469a54b3
+44702	45266	7390473503061318	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.obj	8d71a2a52883be25
+44721	45274	7390473503001304	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.obj	6217e4f43970aa9e
+44810	45418	7390473504426781	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.obj	fecc4519966981d0
+44488	45485	7390473505212083	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.obj	f28e7cf517a8756c
+44970	45549	7390473505844855	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.obj	7fe90cae7b617290
+45128	45678	7390473507295421	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.obj	b501959c12e41418
+45188	45688	7390473507435445	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.obj	cc08a955e3b4442a
+45267	45890	7390473509070676	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.obj	84547bfc8b5e3f6f
+44851	45900	7390473509510773	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.obj	2d9391aa62040fa2
+45418	46098	7390473511351752	SDL/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.obj	66c85402829ba5c
+45118	46120	7390473511581808	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.obj	7ffd20b9e41c1f74
+45549	46129	7390473511551800	SDL/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj	1e7caa9d3e928a84
+44922	46149	7390473511917033	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.obj	7ee973b2cdab47fe
+45274	46170	7390473512137068	SDL/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.obj	9eb5939094b1a55e
+45259	46213	7390473512627175	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.obj	b5436e6e32ce7fbf
+45197	46285	7390473513342469	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.obj	cedde3978dff316a
+45485	46295	7390473513432487	SDL/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.obj	2df3efda45fd982d
+45144	46365	7390473513792606	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.obj	df9bad25c1dd42d0
+45236	46535	7390473515523222	SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.obj	ad121aefd00befde
+45688	46772	7390473517924896	SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.obj	6b9efab53dadb5bc
+45901	46786	7390473518375007	SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_hid.c.obj	591664e03b32c616
+45890	46949	7390473518585039	SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.obj	b30ede752b4bd233
+45678	46968	7390473520205637	SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.obj	c22d5dfc183253d4
+46129	46978	7390473520205637	SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_xinput.c.obj	f3004f8b8239835b
+46120	47305	7390473523081666	SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_windows.c.obj	7129c403097c2220
+46149	47322	7390473523431740	SDL/CMakeFiles/SDL2-static.dir/src/misc/windows/SDL_sysurl.c.obj	69a6d7f5e9e95841
+46214	47331	7390473523751834	SDL/CMakeFiles/SDL2-static.dir/src/audio/directsound/SDL_directsound.c.obj	d1f7c7faf6e79ba8
+46098	47341	7390473523881869	SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_immdevice.c.obj	a95b549bc5e266a2
+46170	47383	7390473524318164	SDL/CMakeFiles/SDL2-static.dir/src/audio/winmm/SDL_winmm.c.obj	2f1df4572e29cc87
+46295	47449	7390473524953448	SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi_win32.c.obj	be9989a029b52840
+46286	47503	7390473525333536	SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi.c.obj	695750236ed27ab6
+46365	47594	7390473526458936	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsclipboard.c.obj	6de33cc49a465e6a
+47503	47971	7390473530112896	SDL/CMakeFiles/SDL2-static.dir/src/thread/generic/SDL_syscond.c.obj	b37bc07a7320f1b0
+46535	47989	7390473530282293	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsevents.c.obj	885cd907fb9aa71
+46787	48085	7390473530622363	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowskeyboard.c.obj	3a23edd69910718
+46949	48305	7390473533468369	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmessagebox.c.obj	d4b35ab83f9626a9
+46978	48313	7390473533558372	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmouse.c.obj	574a48e99ccaa132
+46772	48322	7390473533598394	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsframebuffer.c.obj	370ac273cb1bac9
+46969	48331	7390473533448357	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmodes.c.obj	80ca39cb2ac70d61
+47594	48618	7390473536457460	SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syscond_cv.c.obj	b0bce007ff624296
+47332	48753	7390473536902655	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsshape.c.obj	ae23f874678c4a7b
+47383	48843	7390473538811628	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvulkan.c.obj	73f8b3ebbc7533a1
+47306	48853	7390473538461502	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengl.c.obj	c8f464d918d87bc7
+47322	48867	7390473539186807	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengles.c.obj	75a1a3366635e4a3
+47989	48875	7390473539186807	SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syssem.c.obj	9eb4443ea270455e
+47971	48883	7390473539196802	SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_sysmutex.c.obj	e79a180b6da6da63
+47341	48893	7390473539439412	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvideo.c.obj	91a205229f9cba63
+48085	49111	7390473541140052	SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systhread.c.obj	3304fe465e836332
+47449	49121	7390473541170057	SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowswindow.c.obj	8bb73124d3b5b77f
+48853	49267	7390473543215688	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj	e48b86dba68c864a
+48323	49280	7390473543345716	SDL/CMakeFiles/SDL2-static.dir/src/power/windows/SDL_syspower.c.obj	db08cbd48796526e
+48331	49288	7390473543345716	SDL/CMakeFiles/SDL2-static.dir/src/locale/windows/SDL_syslocale.c.obj	70b173743f1226ed
+48305	49461	7390473544752864	SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systls.c.obj	e9d60d12aa42f5da
+48867	49502	7390473545518175	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj	7e0489de40fde249
+48883	49518	7390473545278123	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj	297bf63d21437eca
+48893	49526	7390473545718225	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj	745c4330207acf66
+48754	49683	7390473547126511	SDL/CMakeFiles/SDL2-static.dir/src/timer/windows/SDL_systimer.c.obj	eb9c4a0b5ab6a801
+48876	49692	7390473547106510	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj	85921b7fb57f82c4
+48843	49700	7390473547466590	SDL/CMakeFiles/SDL2-static.dir/src/loadso/windows/SDL_sysloadso.c.obj	a2448cd01355119f
+48313	49708	7390473547536604	SDL/CMakeFiles/SDL2-static.dir/src/sensor/windows/SDL_windowssensor.c.obj	df1b3a7d662c051c
+49121	49716	7390473547706644	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj	462a686137680016
+49267	49915	7390473549683778	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj	ce4611dae95e1861
+49280	49929	7390473549863865	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj	d163290268d1827e
+49290	49945	7390473549312243	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj	efa9300e1fa9fa8c
+49461	49989	7390473550379072	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj	65d66f0445e8091f
+49502	50072	7390473550934351	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj	6b6b8eafa1527b04
+49518	50115	7390473551524485	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj	6a191e5ecdf0a663
+48618	50126	7390473551774585	SDL/CMakeFiles/SDL2-static.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj	6f3ec28c7f150c09
+49111	50135	7390473551634506	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj	b1cdfce31efdfd54
+49527	50462	7390473555085836	SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj	6514eb92459906f6
+50126	50623	7390473556575444	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj	e285cda751bdfdc4
+50135	50635	7390473556705467	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj	e03b2872e8029ef0
+49990	50645	7390473556920614	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj	1bdbc70fc68ba2d7
+50115	50653	7390473556940659	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj	de0f1a79798c8ae5
+49683	50793	7390473558450654	SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_dinputjoystick.c.obj	2200e46f163429cf
+50073	50853	7390473559005928	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj	500bd977a86b4758
+49717	50976	7390473560174787	SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_xinputjoystick.c.obj	f529107fc978a6cd
+49945	50988	7390473560394836	SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_xinputhaptic.c.obj	7f7e984dd1c84f22
+49709	51000	7390473560524852	SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windowsjoystick.c.obj	ab7aad195fbbfd82
+49915	51117	7390473561640272	SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_dinputhaptic.c.obj	93c0e16b9bd9723f
+49929	51128	7390473561780335	SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_windowshaptic.c.obj	efd5ed7f8adf26ff
+50462	51210	7390473562598161	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj	b65325ec9f1fcb7a
+50653	51265	7390473563113452	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj	513a270783dd4166
+50635	51287	7390473563373512	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj	de576f668686f44a
+51000	51291	7390473563463533	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj	bfeb7e1ac8dcf41
+50623	51293	7390473563353505	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj	c65a5219c88a3b02
+50645	51299	7390473563543543	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj	5682634543327ce2
+51128	51299	7390473563323497	SDL2_gfx/SDL2_gfx.lib	f483fd42b7f1bfdb
+50854	51367	7390473564212987	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj	61443b85d91fdea4
+50794	51373	7390473564293013	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj	7badf859307ec074
+50976	51455	7390473565076925	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj	b312e5e840b4f8c9
+50988	51459	7390473565116937	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj	c5cec66a92718275
+51117	51546	7390473566004327	SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj	4040dcc41d727c24
+51546	51622	7390473566733059	SDL/SDL2_test.lib	2374fd4cdae61d32
+49692	52065	7390473571159147	SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj	bd34bdea045c4c45
+49700	52193	7390473572461694	SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj	e595e0bac47da7b0
+51299	52207	7390473572135428	planar_quadrotor.exe	55578e01c0c70e6e
+52193	52385	7390473574334317	SDL/SDL2-staticd.lib	4f522baffe12942c
+51	1467	7390474654211548	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj	1524c8def7d3a066
+1468	1736	7390474656419378	planar_quadrotor.exe	55578e01c0c70e6e
+64	2928	7390474881807494	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj	7cba065dc0830881
+2929	3361	7390474885516220	planar_quadrotor.exe	55578e01c0c70e6e
+50	2786	7390475049390414	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj	7cba065dc0830881
+2787	3609	7390475056757581	planar_quadrotor.exe	55578e01c0c70e6e
