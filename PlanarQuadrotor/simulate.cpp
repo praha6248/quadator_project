@@ -9,7 +9,7 @@ std::vector<float> y_history;
 std::vector<float> theta_history;
 
 Eigen::MatrixXf LQR(PlanarQuadrotor& quadrotor, float dt) {
-    /* Calculate LQR gain matrix */
+    // Calculate LQR gain matrix
     Eigen::MatrixXf Eye = Eigen::MatrixXf::Identity(6, 6);
     Eigen::MatrixXf A = Eigen::MatrixXf::Zero(6, 6);
     Eigen::MatrixXf A_discrete = Eigen::MatrixXf::Zero(6, 6);
@@ -20,7 +20,7 @@ Eigen::MatrixXf LQR(PlanarQuadrotor& quadrotor, float dt) {
     Eigen::MatrixXf K = Eigen::MatrixXf::Zero(6, 6);
     Eigen::Vector2f input = quadrotor.GravityCompInput();
 
-    Q.diagonal() << 10, 10, 10, 1, 10, 0.25 / 2 / M_PI;
+    Q.diagonal() << 10, 10, 10, 1, 10, 1.5 / 2 / M_PI;
     R.row(0) << 0.1, 0.05;
     R.row(1) << 0.05, 0.1;
 
@@ -32,8 +32,19 @@ Eigen::MatrixXf LQR(PlanarQuadrotor& quadrotor, float dt) {
 }
 
 void plotTrajectory() {
-    matplot::title("Quadrocopter Trajectory");
+    if (x_history.empty() || y_history.empty()) {
+        std::cerr << "Error: History vectors are empty. Cannot plot trajectory." << std::endl;
+        return;
+    }
+    if (x_history.size() != y_history.size()) {
+        std::cerr << "Error: History vectors have different sizes. Cannot plot trajectory." << std::endl;
+        return;
+    }
+
+    matplot::title("Quadrotor Trajectory");
     matplot::plot(x_history, y_history)->color({ 1.0f, 0.08f, 0.58f });
+    matplot::xlabel("X position");
+    matplot::ylabel("Y position");
     matplot::show();
 }
 
@@ -42,10 +53,19 @@ void control(PlanarQuadrotor& quadrotor, const Eigen::MatrixXf& K) {
     quadrotor.SetInput(input - K * quadrotor.GetControlState());
 }
 
-Eigen::Vector2f transformCoordinates(int x, int y, int screen_width, int screen_height) {
-    float quad_x = static_cast<float>(x) / screen_width * 2.0f - 1.0f;
-    float quad_y = 1.0f - static_cast<float>(y) / screen_height * 2.0f;
-    return Eigen::Vector2f(quad_x * (1280 / 2), quad_y * (720 / 2));
+void drawFlag(SDL_Renderer* renderer, int visual_x, int visual_y) {
+    Sint16 x1 = visual_x;
+    Sint16 y1 = visual_y - 20;
+    Sint16 x2 = visual_x;
+    Sint16 y2 = visual_y - 50;
+    Sint16 x3 = visual_x + 30;
+    Sint16 y3 = visual_y - 35;
+    filledTrigonRGBA(renderer, x1, y1, x2, y2, x3, y3, 255, 78, 171, 255);
+
+    SDL_SetRenderDrawColor(renderer, 100, 100, 100, 255); // Gray color for the pole
+    SDL_RenderDrawLine(renderer, visual_x, visual_y - 50, visual_x, visual_y); // Flag pole
+    SDL_RenderDrawLine(renderer, visual_x - 1, visual_y - 50, visual_x - 1, visual_y); // Thickening the flag pole
+    SDL_RenderDrawLine(renderer, visual_x + 1, visual_y - 50, visual_x + 1, visual_y); // Thickening the flag pole
 }
 
 int main(int argc, char* args[])
@@ -55,50 +75,28 @@ int main(int argc, char* args[])
     const int SCREEN_WIDTH = 1280;
     const int SCREEN_HEIGHT = 720;
 
-
-
-    /**
-     * TODO: Extend simulation
-     * 1. Set goal state of the mouse when clicking left mouse button (transform the coordinates to the quadrotor world! see visualizer TODO list)
-     *    [x, y, 0, 0, 0, 0]
-     * 2. Update PlanarQuadrotor from simulation when goal is changed
-    */
     Eigen::VectorXf initial_state = Eigen::VectorXf::Zero(6);
     PlanarQuadrotor quadrotor(initial_state);
     PlanarQuadrotorVisualizer quadrotor_visualizer(&quadrotor);
-    /**
-     * Goal pose for the quadrotor
-     * [x, y, theta, x_dot, y_dot, theta_dot]
-     * For implemented LQR controller, it has to be [x, y, 0, 0, 0, 0]
-    */
+
     Eigen::VectorXf goal_state = Eigen::VectorXf::Zero(6);
     goal_state << 0, 0, 0, 0, 0, 0;
     quadrotor.SetGoal(goal_state);
-    /* Timestep for the simulation */
+
     const float dt = 0.001;
     Eigen::MatrixXf K = LQR(quadrotor, dt);
-    Eigen::Vector2f input = Eigen::Vector2f::Zero(2);
-
-    /**
-     * TODO: Plot x, y, theta over time
-     * 1. Update x, y, theta history vectors to store trajectory of the quadrotor
-     * 2. Plot trajectory using matplot++ when key 'p' is clicked
-    */
-    std::vector<float> x_history;
-    std::vector<float> y_history;
-    std::vector<float> theta_history;
 
     if (init(gWindow, gRenderer, SCREEN_WIDTH, SCREEN_HEIGHT) >= 0)
     {
         SDL_Event e;
         bool quit = false;
-        float delay;
         int x, y;
-        Eigen::VectorXf state = Eigen::VectorXf::Zero(6);
+        bool destinationReached = false;
 
+        // Main loop
         while (!quit)
         {
-            //events
+            // Handle SDL events
             while (SDL_PollEvent(&e) != 0)
             {
                 if (e.type == SDL_QUIT)
@@ -107,13 +105,14 @@ int main(int argc, char* args[])
                 }
                 else if (e.type == SDL_MOUSEBUTTONDOWN)
                 {
+                    // Handle mouse clicks for setting the goal state
                     if (e.button.button == SDL_BUTTON_LEFT) {
                         SDL_GetMouseState(&x, &y);
-                        std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
                         float quad_x = (static_cast<float>(x) - SCREEN_WIDTH / 2) / 128.0f;
                         float quad_y = (SCREEN_HEIGHT / 2 - static_cast<float>(y)) / 128.0f;
                         goal_state << quad_x, quad_y, 0, 0, 0, 0;
                         quadrotor.SetGoal(goal_state);
+                        destinationReached = false; // Reset flag when goal is updated
                     }
                 }
                 else if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_p)
@@ -123,23 +122,38 @@ int main(int argc, char* args[])
                 }
             }
 
-            // Update quadrotor state
+            // Update quadrotor simulation
             quadrotor.Update(dt);
             x_history.push_back(quadrotor.GetState()[0]);
             y_history.push_back(quadrotor.GetState()[1]);
             theta_history.push_back(quadrotor.GetState()[2]);
 
-            SDL_Delay((int)dt * 1000);
+            // Check if destination is reached
+            if (!destinationReached) {
+                Eigen::Vector2f currentPos = quadrotor.GetState().head<2>();
+                Eigen::Vector2f goalPos = goal_state.head<2>();
+                float distance = (currentPos - goalPos).norm();
+                if (distance < 0.1) { // Adjust the threshold as needed
+                    destinationReached = true; // Set flag when destination is reached
+                }
+            }
 
+            // Render scene
             SDL_SetRenderDrawColor(gRenderer.get(), 0xFF, 0xFF, 0xFF, 0xFF);
             SDL_RenderClear(gRenderer.get());
 
-            /* Quadrotor rendering step */
             quadrotor_visualizer.render(gRenderer);
+
+            // Draw flag only if destination is not reached
+            if (!destinationReached) {
+                int visual_goal_x = static_cast<int>(goal_state[0] * 128.0f) + SCREEN_WIDTH / 2;
+                int visual_goal_y = SCREEN_HEIGHT / 2 - static_cast<int>(goal_state[1] * 128.0f);
+                drawFlag(gRenderer.get(), visual_goal_x, visual_goal_y);
+            }
 
             SDL_RenderPresent(gRenderer.get());
 
-            /* Simulate quadrotor forward in time */
+            // Control quadrotor using LQR
             control(quadrotor, K);
             quadrotor.Update(dt);
         }

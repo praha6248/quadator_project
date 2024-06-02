@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <memory>
-
+#include <vector>
 #include <Eigen/Dense>
 #include <SDL.h>
 #include <SDL2_gfx/SDL2_gfxPrimitives.h>
