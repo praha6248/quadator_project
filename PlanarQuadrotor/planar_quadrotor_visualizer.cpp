@@ -104,11 +104,8 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer>& gRenderer)
     q_y = state[1];
     q_theta = state[2];
 
-    int visual_x = static_cast<int>(q_x * 128.0f) + 640;
-    int visual_y = 360 - static_cast<int>(q_y * 128.0f);
-
-    visual_x = std::max(40, std::min(visual_x, 1280 - 40));
-    visual_y = std::max(40, std::min(visual_y, 720 - 40));
+    int visual_x = static_cast<int>(q_x * 256.0f) + 640;
+    int visual_y = 360 - static_cast<int>(q_y * 256.0f);
 
     static float propeller_angle = 0.0f;
     propeller_angle += 0.04f;
